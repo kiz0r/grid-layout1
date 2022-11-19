@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.gridBox {
+  display: grid;
+}
+
+.header {
+  color: #fff;
+  height: 65vh;
+  position: relative;
+}
+
+.bg-image {
+  background-image: url('./../img/background.png');
+  background-color: #000;
+  filter: blur(1.5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+}
+
+.headerWrapper {
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+  text-align: center;
+  width: 60%;
+}
+
+.contentWrapper {
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  width: 60%;
+}
+
+.greeting {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.caption {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.readMore {
+  background: #333333;
+  border: 1px solid #666;
+  padding: 16px 32px;
+  transition: all 0.5s ease;
+}
+
+.readMore:hover {
+  background: #fff;
+  color: #000;
+}
+
+.firstSection,
+.thirdSection {
+  background: #eaeaea;
+}
+
+.secondSection {
+  background: #333;
+}
+
+.firstSection {
+  padding: 50px 0px;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.aboutWebDev {
+  columns: 2;
+}
+
+.cards {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 25em));
+  padding: 40px 0px;
+  gap: 30px 20px;
+}
+
+.card {
+  background: #fff;
+}
+
+.cardWrapper {
+  padding: 1.5em;
+}
+
+.pic {
+  width: 100%;
+}
+
+.cardTitle {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.cardInfo {
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+.slogan {
+  padding: 70px 0px;
+}
+
+.fourthSection {
+  grid-template-columns: repeat(2, 50%);
+  color: #fff;
+}
+
+.split {
+  padding: 2em;
+}
+
+.leftBox {
+  background: #2690d4;
+}
+
+.rightBox {
+  background: #333;
+}
+
+.leftBoxCaption {
+  padding-bottom: 30px;
+}
+
+.footer {
+  color: #fff;
+  background: #000;
+  padding: 2em;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.box {
+  text-align: center;
+}
+
+.footerLink {
+  color: #2690d4;
+}
